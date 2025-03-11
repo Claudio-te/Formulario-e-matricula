@@ -15,7 +15,8 @@ box-sizing: border-box;
 --text-highlight: #e43a12;
 
 --surface-primary: #FFFFFF;
---surface-secondary: #fee7d6;
+--surface-secondary: #FEE7D6;
+--surface-disabled: #E7E5E4;
 
 --stroke-default: #d6d3d1;
 --stroke-hightlight: #f3541c;
@@ -36,6 +37,18 @@ h1, h2 {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+flex: 1
+}
+
+.flex-2 {
+  flex: 2
 }
 
 input[type="date"] {
